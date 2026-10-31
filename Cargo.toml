@@ -1,0 +1,19 @@
+[package]
+name = "op-alloy"
+version = "0.1.0"
+edition = "2021"
+authors = ["Wikialisalabs Foundation <root@wikialisalabs.axvn.vn>"]
+description = "OP Stack native types and primitives for the Wikialisalabs SEQUENTICHAIN"
+license = "MIT"
+repository = "https://github.com/wikialisalabs/op-alloy"
+keywords = ["optimism", "op-stack", "layer2", "ethereum", "rollup"]
+categories = ["cryptography::cryptocurrencies"]
+readme = "README.md"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+alloy-core = { path = "../core" }
+alloy-eips = { path = "../eips" }
